@@ -26,6 +26,7 @@ app.get("/api/hello", function (req, res) {
 });
 
 app.get("/api/whoami", (req, res) => {
+  const ipaddress = req.ip;
   
 })
 
